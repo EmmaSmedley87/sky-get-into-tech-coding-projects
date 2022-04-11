@@ -1,0 +1,40 @@
+/* selector. attribute */
+
+/* imported google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap');
+
+body {
+    background-color: blanchedalmond;
+    color: maroon;
+}
+
+li {
+    color: navy;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+}
+
+h3, h4 {
+    font-family: 'Syne Tactile', cursive;
+}
+
+p {
+    font-size: 20px;
+    color: darkred;
+}
+
+/* a dot specifies a css class */
+.quote {
+    font-size: 26px;
+    color: darkblue;
+}
+
+/* hash # is an id rule */
+#mainquote {
+    font-size: 32px;
+    font-weight: bold;
+}
+

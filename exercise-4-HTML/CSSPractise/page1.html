@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        p {color:red;}
+        .blue {color: blue;}
+        #green {color: green}
+    </style>
+    <title>Oranges</title>
+</head>
+<!-- Orange is now orange because the internal orange style overides the p styling, class and p id -->
+    <p id="green" class="blue" style="color:orange;">Oranges are orange</p>
+    <!-- Orange is now green because the style overides p styling and class -->
+    <p id="green" class="blue">Oranges are green</p>
+    <!-- Orange is now blue as the class overides the p styling -->
+    <p class="blue">Oranges are blue</p>
+    <!-- The initial p styling is applied, no other styles added so uses the main style of red -->
+    <p>Oranges are red</p>
+</body>
+</html>
