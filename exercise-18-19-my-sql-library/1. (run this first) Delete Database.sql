@@ -1,0 +1,1 @@
+drop database getintotech_library;
